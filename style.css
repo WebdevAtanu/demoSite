@@ -138,7 +138,7 @@ body {
 	transform: translateY(-10px);
 
 	&>img {
-		animation: picanime 1.5s ease-in-out infinite;
+		animation: picanime 3.5s ease-in-out infinite;
 	}
 
 }
