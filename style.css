@@ -19,14 +19,15 @@ body {
 	justify-content: space-between;
 }
 
-.custom_dropdown{
+.custom_dropdown {
 	border: none;
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
+
 .custom_a {
 	color: darkslateblue;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	font-weight: 500;
 	padding: 0;
 }
@@ -408,6 +409,11 @@ sup {
 }
 
 @media screen and (max-width:960px) {
+	.my_nav {
+		height: 100vh;
+		align-content: flex-start;
+	}
+
 	.custom_a {
 		font-size: 1rem;
 	}

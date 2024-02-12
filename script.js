@@ -22,3 +22,7 @@ const swiper = new Swiper('.swiper', {
         delay: 3000,
     },
 });
+
+$("#navToggle").click(function() {
+    $('#navContainer').toggleClass('my_nav');
+});
