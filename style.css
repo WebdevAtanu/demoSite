@@ -19,6 +19,11 @@ body {
 	justify-content: space-between;
 }
 
+.custom_dropdown{
+	border: none;
+    margin: 0;
+    padding: 0;
+}
 .custom_a {
 	color: darkslateblue;
 	font-size: 1.5rem;
