@@ -30,6 +30,7 @@ body {
 	font-size: 1.1rem;
 	font-weight: 500;
 	padding: 0;
+	font-family: serif;
 }
 
 .navbar-brand img {
@@ -144,7 +145,7 @@ body {
 	transform: translateY(-10px);
 
 	&>img {
-		animation: picanime 3.5s ease-in-out infinite;
+		animation: picanime 2.5s ease-in-out infinite;
 	}
 
 }
@@ -336,7 +337,7 @@ body {
 }
 
 .banner6> .row {
-	margin: 5%;
+	margin: 2%;
 	color: white;
 
 	& p {
@@ -415,8 +416,8 @@ sup {
 	}
 
 	.custom_a {
-		font-size: 1.5rem;
-    	margin: 5px;
+		font-size: 1.2rem;
+		margin: 5px;
 	}
 
 	.navbar ul li> img {
