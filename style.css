@@ -40,6 +40,12 @@ body {
 .navbar  ul li> img {
 	height: 40%;
 }
+.navbar-toggler{
+	border:none;
+	&:focus{
+		box-shadow:none;
+	}
+}
 
 /*navbar ends------------------------------------------------------------------------*/
 .myslider {
