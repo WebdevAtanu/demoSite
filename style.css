@@ -8,7 +8,7 @@ body {
 	font-family: math;
 }
 
-/*navbar*/
+/*======================navbar=============================*/
 .navbar {
 	z-index: 999;
 }
@@ -19,18 +19,11 @@ body {
 	justify-content: space-between;
 }
 
-.custom_dropdown {
-	border: none;
-	margin: 0;
-	padding: 0;
-}
-
 .custom_a {
 	color: darkslateblue;
 	font-size: 1.1rem;
 	font-weight: 500;
 	padding: 0;
-	font-family: serif;
 }
 
 .navbar-brand img {
@@ -40,11 +33,14 @@ body {
 .navbar  ul li> img {
 	height: 40%;
 }
-.navbar-toggler{
-	border:none;
-	&:focus{
-		box-shadow:none;
+
+.navbar-toggler {
+	border: none;
+
+	&:focus {
+		box-shadow: none;
 	}
+
 }
 
 /*navbar ends------------------------------------------------------------------------*/
@@ -274,7 +270,7 @@ body {
 }
 
 .my_cards> img {
-	width: 30%;
+	width: 50%;
 }
 
 /*banner ends------------------------------------------------------------------------*/
@@ -288,7 +284,8 @@ body {
 }
 
 .newCard {
-	height: 30vh;
+	width: 100%;
+	aspect-ratio: 1/0.5;
 	margin-bottom: 5rem;
 	border-radius: 10px;
 	color: white;
@@ -431,10 +428,10 @@ sup {
 	}
 
 	.swiper-slide> p {
-		font-size: 1rem;
+		font-size: 1.2rem;
 
 		&> a {
-			font-size: 0.8rem;
+			font-size: 1rem;
 		}
 
 	}
@@ -442,10 +439,6 @@ sup {
 	.mycards {
 		display: flex;
 		flex-direction: column;
-	}
-
-	.newCard {
-		height: 20vh;
 	}
 
 }
